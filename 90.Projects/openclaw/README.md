@@ -29,3 +29,29 @@ claude
 다시 실행해줘.
 ```
 
+```text
+게시판의 구조를 확인해줘.
+```
+
+4. Claude와 API 는 별도의 과금으로 이루어짐
+
+기존의 터미널에서 빠져나온 후에 다음의 명령어를 수행
+
+```bash
+export OPENAI_API_KEY=[YOUR_OPENAI_API_KEY]
+```
+
+5. 게시판을 LLM과 상호 작용하도록 구조를 조정
+
+```text
+게시판에 사용자가 요청사항을 쓰면 그 요청사항을 AI가 읽고 댓글로 결과를 AI가 응답하는 것을 구현하기 위한 준비를 하고 계획을 세워 일을 수행해줘.
+
+준비사항
+- 첫번째 할 일은 https://github.com/openclaw/openclaw
+ 프로젝트를 clone 해서 README.md를 읽어보고 openclaw를 통해 우리의 게시판(http://{MY_IP}:3000/)과 통합할 준비를 해줘.
+- 게시판은 AI가 접근하기 수월하게 API를 제공하고 있고 필요하다면 openclaw와 통합하는 과정에서 게시판 프로그램의 수정이 필요하다면 수정해도 좋아.
+- openclaw를 사용하기 위해서는 AI를 사용하기 위한 APIKey가 필요한데 APIKey는 OPENAI_API_KEY 환경변수에 담아두었으니 이것을 사용하면 되고 모델은 gpt-5-mini를 사용해줘. gpt-5-mini API를 사용하기에 앞서 먼저 웹검색을 통해 사용방법을 숙지하고 진행해줘.
+```
+
+
+
