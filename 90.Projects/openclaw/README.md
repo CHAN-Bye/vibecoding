@@ -53,5 +53,19 @@ export OPENAI_API_KEY=[YOUR_OPENAI_API_KEY]
 - openclaw를 사용하기 위해서는 AI를 사용하기 위한 APIKey가 필요한데 APIKey는 OPENAI_API_KEY 환경변수에 담아두었으니 이것을 사용하면 되고 모델은 gpt-5-mini를 사용해줘. gpt-5-mini API를 사용하기에 앞서 먼저 웹검색을 통해 사용방법을 숙지하고 진행해줘.
 ```
 
+6. OpenClaw의 일부 기능을 변경
 
+```text
+OpenClaw의 브라우저를 통해서 인터넷에서 정보를 탐색해서 응답할 수 있도록 변경해줘.
+```
+
+```text
+OpenAI의 response 기능을 사용했는데 실제 웹브라우저의 검색을 통해서 동작하도록 개선해줘.
+```
+
+7. 추가적인 기능 구현
+
+```text
+게시판에 글이 달리면 이메일을 보내는 스케줄링 에이전트를 만들어줘.
+```
 
