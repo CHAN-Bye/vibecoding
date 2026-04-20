@@ -17,6 +17,11 @@ node --version
 - https://www.python.org/downloads/
 - get the standalone installer for Python 에서 다운로드 후 설치
 
+4. Antigravity 설치
+
+- https://antigravity.google/download
+- (Download for x64) 다운로드
+
 ---
 
 # FileSystem MCP 를 설치하고 사용 가능하도록 설정
